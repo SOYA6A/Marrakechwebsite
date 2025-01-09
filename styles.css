@@ -1,0 +1,147 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+nav  {
+  
+    color: black; /*text color*/
+    padding: 10px 0;
+    text-align: right;
+    display: inline;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin:15px;
+}
+
+
+
+nav ul li a {
+    color: rgb(14, 14, 14);
+    text-decoration: none;
+    
+}
+
+header  {
+    position: relative;
+    height:400px;
+   text-align: center;
+   overflow: hidden;
+   
+}
+
+
+
+.header-text {
+    position: absolute;
+    top: 50%; /* Centrer verticalement */
+    left: 50%; /* Centrer horizontalement */
+    transform: translate(-50%, -50%); /* Ajuster le centrage */
+    text-align: center;
+    color: rgba(231, 218, 218, 0.809); /* Couleur du texte */
+    z-index: 10; /* Assurez-vous que le texte est au-dessus de l'image */ 
+    opacity: 0; /* Masque le texte au début */
+    transform: translate(-50%, -50%) translateY(20px); /* Déplace le texte vers le bas */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transition pour l'opacité et la transformation */
+}
+/* Au survol, rendre le texte visible et le déplacer vers sa position d'origine */
+header:hover .header-text {
+    opacity: 1; /* Devient visible */
+    transform: translate(-50%, -50%) translateY(0); /* Retourne à la position d'origine */
+}
+
+.header-text h1 {
+    font-size: 3rem; /* Taille du titre */
+    margin: 0;
+  
+}
+
+.header-text p {
+    font-size: 2rem; /* Taille du paragraphe */
+    margin: 10px 0 0; 
+   
+}
+/* Définir l'animation pour le text du header */
+@keyframes fadeInUp {
+    from {
+        opacity: 0; /* Commence invisible */
+        transform: translate(-50%, -50%) translateY(20px); /* Déplace vers le bas */
+    }
+    to {
+        opacity: 1; /* Devient visible */
+        transform: translate(-50%, -50%) translateY(0); /* Retourne à la position d'origine */
+    }
+}
+
+
+
+header img {
+    width: 95%;
+    height: auto;
+    border-radius: none;
+    margin-top: 10px;
+   
+    
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.gallery-item:hover {
+    background-color: black;
+}
+
+.Discover-button {
+    background-color: rgba(192, 117, 18, 0.64); /* couleur de fond*/
+    color: hsl(0, 20%, 94%); /*couleur du texte*/
+    border: none;/* supprime les bordures*/
+    padding: 10px 20px;
+    border-radius: 10px; /*arrondis les angles, bords*/
+    cursor:pointer;/*change le curseur en pointeur litteralement de la souris a un peit doigt*/
+    transition: background-color 0.3s ease; /*transition fluide*/
+    margin-top: 10px;/*POUR METTRE UN ESPACE ENTRE MON BOUTTON ET MON IMAGE REMEMBER IT*/
+
+}
+
+.Discover-button:hover {
+    background-color: brown;/* change la couleur au survole*/
+}
+
+.Contact{
+    background-color: rgba(192, 117, 18, 0.64) ;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color:hsl(0, 20%, 94%);
+   
+}
