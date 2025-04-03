@@ -6,6 +6,6 @@ Un site web élégant et minimaliste présentant la ville de Marrakech, ses attr
 ## Aperçu du projet:
 ![image](https://github.com/user-attachments/assets/2be63afd-0fb2-41d3-b9c3-f39c32accb99)
 
-## F<onctionnalités:
+## Fonctionnalités:
 - 🏠 Page d'accueil avec une présentation atrayante
 - 📸 Galerie d'images mettant en valeur différents aspect de Marrakech 
