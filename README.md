@@ -11,3 +11,4 @@ Un site web élégant et minimaliste présentant la ville de Marrakech, ses attr
 - 📸 Galerie d'images mettant en valeur différents aspect de Marrakech
 - 🌇 Boutons interactifs "Discover" pour chaque image
 - 📱 Design responsive adapté a tous les appareils
+- ☎️ Section contact avec informations pratique 
