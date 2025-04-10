@@ -118,9 +118,7 @@ section {
     border-radius: 10px;
     cursor: pointer;
 }
-.gallery-item:hover {
-    background-color: black;
-}
+
 
 .Discover-button {
     background-color: rgba(192, 117, 18, 0.64); /* couleur de fond*/
